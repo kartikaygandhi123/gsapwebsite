@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1208&q=80);
+
+    padding: 0 60px;
+}
+#nav {
+    height: 80px;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav h1 {
+    color: #4aab6b;
+}
+#nav h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #4aab6b;
+}
+#nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #4aab6b;
+}
+#nav-part2 {
+    display: flex;
+    gap: 20px;
+}
+
+#container {
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 155px 96px;
+    line-height: 60px;
+}
+
+#left img {
+    height: 42px;
+    width: 46px;
+    border-radius: 50%;
+}
+#right {
+    width: 50%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    padding: 93px 22px;
+}
+
+#right img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1491864483946-1f06be97b71d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80);
+
+    background-size: cover;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1c2c39;
+}
+
+#page2 .box {
+    height: 300px;
+    width: 400px;
+
+    backdrop-filter: blur(5px);
+    text-align: center;
+    padding: 30px;
+}
+
+#box1 {
+    border-top: 2px solid #11232f;
+    border-left: 2px solid #11232f;
+}
+#box2 {
+    border-right: 2px solid #11232f;
+    border-bottom: 2px solid #11232f;
+}
+#box3 {
+    border-right: 2px solid #11232f;
+    border-top: 2px solid #11232f;
+}
+#page2 h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#page2 p {
+    font-size: 20px;
+}

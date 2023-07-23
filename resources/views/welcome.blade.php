@@ -26,7 +26,7 @@
                 <h1>w<span><img
                             src="https://plus.unsplash.com/premium_photo-1675115864318-ed0bba750aa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
                             alt="" srcset=""></span>rld in a</h1>
-                <h1>new way</h1>
+                <h1><span class="head-wee">wee</span> way</h1>
 
             </div>
             <div id="right">
@@ -37,19 +37,58 @@
         </div>
     </div>
     <div id="page2">
-        <div id="box1" class="box">
-            <h2>By Car</h2>
-            <p>Reach out to the distant places by car.</p>
+        <div class="page2-head">
+            <h3>Discover Places</h3>
         </div>
-        <div id="box2" class="box">
-            <h2>Trekking</h2>
-            <p>Track for the undiscovered and offbeat locations</p>
+        <div class="box-container">
+            <div id="box1" class="box">
+                <h2>Shimla</h2>
+                <p>Reach out to the distant places by car.</p>
+            </div>
+            <div id="box2" class="box">
+                <h2>Manali</h2>
+                <p>Track for the undiscovered and offbeat locations</p>
+            </div>
+            <div id="box3" class="box">
+                <h2>Dharamshala</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+            <div id="box4" class="box">
+                <h2>Spiti</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+            <div id="box5" class="box">
+                <h2>Lahaul</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+            <div id="box6" class="box">
+                <h2>Kaza</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+            <div id="box7" class="box">
+                <h2>Chitkul</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+            <div id="box8" class="box">
+                <h2>Sangla</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+            <div id="box9" class="box">
+                <h2>Kasol</h2>
+                <p>Camp in midst of starry nights close to nature and yourself</p>
+            </div>
+
+
         </div>
-        <div id="box3" class="box">
-            <h2>Camping</h2>
-            <p>Camp in midst of starry nights close to nature and yourself</p>
-        </div>
+
     </div>
+    <div id="page3">
+        <h1>together <span class="head-wee">wee</span>travel more</h1>
+    </div>
+    <div id="page4">
+        <h1>call <span class="head-wee">wee</span>on 7018916636</h1>
+    </div>
+
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"

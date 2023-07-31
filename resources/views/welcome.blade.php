@@ -77,16 +77,33 @@
                 <h2>Kasol</h2>
                 <p>Camp in midst of starry nights close to nature and yourself</p>
             </div>
+            <div id="box10" class="box">
+                <h1>And Many More...</h1>
+
+            </div>
+
 
 
         </div>
 
     </div>
-    <div id="page3">
-        <h1>together <span class="head-wee">wee</span>travel more</h1>
-    </div>
+
     <div id="page4">
         <h1>call <span class="head-wee">wee</span>on 7018916636</h1>
+    </div>
+    <div id="page5">
+        <div class="header1">
+            <h2>Submit Your Query</h2>
+        </div>
+        <div class="form-card">
+            <form action="">
+                <input type="text" placeholder="YOUR NAME">
+                <input type="number" placeholder="YOUR CONTACT">
+                <input type="email" placeholder="YOUR EMAIL">
+
+                <button class="button">Submit</button>
+            </form>
+        </div>
     </div>
 
 

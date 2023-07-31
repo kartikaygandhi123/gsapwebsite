@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: black;
 }
 
 html,
@@ -183,6 +182,10 @@ body {
     background-position: 70%;
     background-size: cover;
 }
+#box10 {
+    background-position: 70%;
+    background-size: cover;
+}
 
 #page2 h2 {
     margin-bottom: 20px;
@@ -191,24 +194,6 @@ body {
 
 #page2 p {
     font-size: 20px;
-}
-
-#page3 {
-    height: 100%;
-    width: 100%;
-    background-image: url(https://images.unsplash.com/photo-1487424439918-bc6b5bef0380?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1333&q=80);
-    background-size: cover;
-    overflow: hidden;
-}
-
-#page3 h1 {
-    backdrop-filter: blur(2px);
-    font-size: 35vw;
-    text-transform: uppercase;
-    font-family: moqo;
-    white-space: nowrap;
-    font-stretch: 260%;
-    font-weight: 999;
 }
 
 #page4 {
@@ -221,10 +206,70 @@ body {
 
 #page4 h1 {
     backdrop-filter: blur(2px);
-    font-size: 35vw;
+    font-size: 25vw;
     text-transform: uppercase;
     font-family: moqo;
     white-space: nowrap;
     font-stretch: 260%;
     font-weight: 999;
+}
+
+#page5 {
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page5 .header1 {
+    /* display: flex;
+    justify-content: center; */
+    padding: 20px;
+    font-size: 40px;
+    color: #ffff;
+}
+
+.form-card {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+
+form {
+    width: 100%;
+    top: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 29px;
+}
+
+form input {
+    width: 54%;
+    height: 9%;
+    background-color: transparent;
+
+    border-bottom: 2px solid #ffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    color: white !important;
+}
+
+input:focus {
+    outline: none;
+    font-size: 20px;
+}
+
+button {
+    width: 11vw;
+    height: 6vh;
 }

@@ -47,31 +47,51 @@ gsap.to("#page2 .box-container", {
     },
 });
 
-gsap.to("#page3 h1", {
-    transform: "translateX(-200%)",
-    fontWeight: "100",
-    scrollTrigger: {
-        trigger: "#page3",
-        scroller: "body",
-
-        start: "top 0",
-        end: "top -200%",
-
-        scrub: 2,
-        pin: true,
-    },
-});
 gsap.to("#page4 h1", {
-    transform: "translateX(-200%)",
+    transform: "translateX(-180%)",
     fontWeight: "100",
     scrollTrigger: {
         trigger: "#page4",
         scroller: "body",
 
         start: "top 0",
-        end: "top -200%",
+        end: "top -150%",
 
         scrub: 2,
         pin: true,
+    },
+});
+
+gsap.from("#page5 .header1", {
+    x: -250,
+    opacity: 0,
+    duration: 1,
+    stagger: 0.4,
+    scrollTrigger: {
+        trigger: "#page5 .header1",
+        scroller: "body",
+    },
+});
+
+gsap.from("#page5 .form-card", {
+    x: -300,
+
+    opacity: 0,
+    duration: 1,
+    stagger: 1.5,
+    scrollTrigger: {
+        trigger: "#page5 .header1",
+        scroller: "body",
+    },
+});
+gsap.from("#page5 button", {
+    y: 300,
+
+    opacity: 0,
+    duration: 1,
+    stagger: 1.5,
+    scrollTrigger: {
+        trigger: "#page5 .header1",
+        scroller: "body",
     },
 });
